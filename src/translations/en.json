@@ -1,0 +1,389 @@
+{
+  "navItem": {
+    "home": "HOUSE",
+    "about": "ABOUT",
+    "service": "SERVICE",
+    "facility": "FACILITY",
+    "gallery": "GALLERY",
+    "contact": "CONTACT US"
+  },
+  "home": {
+    "part1": {
+      "h1": "Welcome to Gajera Children Hospital.",
+      "point": {
+        "p1": "Gajera Children Hospital has been a premier children’s hospital in South Gujarat, located in the Hirabag area on Varachha Road, Surat city, operating since 1990.",
+        "p2": "This hospital has a total of 22 beds, including AC special rooms and two general wards with modern facilities.",
+        "p3": "It also has incubator facilities for newborns. Many insurance companies offer cashless facilities.",
+        "p4": "All kinds of vaccines are also provided at this hospital.",
+        "p5": "Our Gajera Children Hospital guarantees the best care in a child-friendly environment. We strive to provide quality care and a conducive environment. Your child's health is our priority."
+      }
+    },
+    "poster1": "Hope is our recipe, laughter is our treatment, and love is our cure.",
+    "review": {
+      "card1": {
+        "name": "Rakesh Ahir",
+        "p": "Best hospital in Surat. All doctors and hospital staff are well-trained. They take care and provide regular follow-ups for every patient. All doctors are very polite.",
+        "star": "5"
+      },
+      "card2": {
+        "name": "Kavad Dhruti",
+        "p": "We highly value your expression of appreciation for our healthcare services. It always motivates us to serve you better. Thank you.",
+        "star": "4"
+      },
+      "card3": {
+        "name": "Rinku Nakum",
+        "p": "Very good experience in the hospital... polite staff... good experienced doctors... best care for newborns.",
+        "star": "3"
+      },
+      "card4": {
+        "name": "Vishal Thasariya",
+        "p": "Best children’s hospital in Surat. Ayushman Bharat scheme is also available. Good staff, polite communication, appreciation for doctors.",
+        "star": "5"
+      },
+      "card5": {
+        "name": "Hiren Chauhan",
+        "p": "I have five points to start with for this hospital: very good experience, doctor, caring nursing staff, very clean hospital, provides NICU for newborns, has an operation theater.",
+        "star": "5"
+      }
+    },
+    "poster2": "Let's connect and build meaningful relationships.",
+    "footer": {
+      "quickContact": {
+        "name": "Quick Contact",
+        "home": "Home",
+        "about": "About",
+        "service": "Service",
+        "facility": "Facility",
+        "gallery": "Gallery",
+        "contact": "Contact Us"
+      },
+      "getInTouch": {
+        "name": "Get in Touch",
+        "address": "Ishwar Palace, Varachha Main Road, near Soham Nagar, opposite Sargam Doctor House, Hirabag, Surat, Gujarat 395006",
+        "phone": {
+          "phone1": "(0261) 2540423",
+          "phone2": "(0261) 2550251"
+        },
+        "email": "vasant_gajera@yahoo.com",
+        "mobile": "9824310103"
+      },
+      "pera": "Gajera Children Hospital started in 1993. We are committed to compassionate care and innovation. Serving the community with excellence, we prioritize your well-being and recovery."
+    }
+  },
+  "about": {
+    "name": "About Us",
+    "part1": {
+      "h1": "Welcome to Gajera Children Hospital.",
+      "point": {
+        "p1": "Gajera Children Hospital has been a premier children’s hospital in South Gujarat, located in the Hirabag area on Varachha Road, Surat city, operating since 1990.",
+        "p2": "This hospital has a total of 22 beds, including AC special rooms and two general wards with modern facilities.",
+        "p3": "It also has incubator facilities for newborns. Many insurance companies offer cashless facilities.",
+        "p4": "All kinds of vaccines are also provided at this hospital.",
+        "p5": "Our Gajera Children Hospital guarantees the best care in a child-friendly environment. We strive to provide quality care and a conducive environment. Your child's health is our priority."
+      }
+    },
+    "part2": {
+      "card1": {
+        "name": "Visiting Hours",
+        "day": "Monday to Saturday",
+        "time1": "10 am to 1 pm",
+        "time2": "5 pm to 8 pm",
+        "time3": {
+          "day": "Sunday",
+          "time": "12 am to 1 pm"
+        }
+      },
+      "card2": {
+        "name": "24-hour emergency assistant doctor service."
+      }
+    },
+    "part3": {
+      "name": "Who We Are?",
+      "card1": {
+        "name": "Our Vision",
+        "dis": "Spreading happiness in families by curing sick children through medical treatment."
+      },
+      "card2": {
+        "name": "Our Mission",
+        "dis": "Our goal is to create a healthy society and a healthy nation by making sick and weak children healthy and strong."
+      },
+      "card3": {
+        "name": "Our Core Value",
+        "dis": "Providing good treatment at minimal cost."
+      }
+    },
+    "part4": {
+      "name": "Meet Our Doctor",
+      "doctor": "Dr. Vasantbhai Gajera (M.B.D.C.H)",
+      "dis": [
+        "Obtained a degree in Pediatrics from Surat city in 1988.",
+        "Gained extensive experience by serving for 2 years at Dr. Bipin Desai's renowned Children's Hospital in Surat city.",
+        "He has raised awareness about various pediatric diseases through numerous TV talks, short videos, and print media.",
+        "During his practice, he has gained extensive experience by conducting workshops on serious pediatric diseases.",
+        "He is always inclined to provide treatment by studying different types of diseases in children in-depth.",
+        "He has in-depth knowledge of respiratory diseases like cold, cough, and asthma, and provides highly modern treatment.",
+        "Has served as Treasurer of IAP Surat.",
+        "Has led many social service activities as the President of Rotary Club.",
+        "In times of recession, always helps poor patients.",
+        "His main aim is to provide affordable and good treatment to every patient."
+      ]
+    },
+    "footer": {
+      "quickContact": {
+        "name": "Quick Contact",
+        "home": "Home",
+        "about": "About",
+        "service": "Service",
+        "facility": "Facility",
+        "gallery": "Gallery",
+        "contact": "Contact Us"
+      },
+      "getInTouch": {
+        "name": "Get in Touch",
+        "address": "Ishwar Palace, Varachha Main Road, near Soham Nagar, opposite Sargam Doctor House, Hirabag, Surat, Gujarat 395006",
+        "phone": {
+          "phone1": "(0261) 2540423",
+          "phone2": "(0261) 2550251"
+        },
+        "email": "vasant_gajera@yahoo.com",
+        "mobile": "9824310103"
+      },
+      "pera": "Gajera Children Hospital started in 1993. We are committed to compassionate care and innovation. Serving the community with excellence, we prioritize your well-being and recovery."
+    }
+  },
+  "service": {
+    "name": "Service",
+    "h1": "We treat diseases like...",
+    "cards": {
+      "card1": {
+        "main": "Does your child have?",
+        "p1": "Vomiting?",
+        "p2": "Watery diarrhea?",
+        "p3": "Does diarrhea smell?",
+        "ans": "Then they might have gastroenteritis."
+      },
+      "card2": {
+        "main": "Does your child have?",
+        "p1": "Vomiting with diarrhea?",
+        "p2": "Sunken eyes?",
+        "p3": "Decreased urine output?",
+        "p4": "Wrinkled skin?",
+        "p5": "Yellow urine?",
+        "p6": "Increased sleepiness?",
+        "ans": "Then they might be dehydrated."
+      },
+      "card3": {
+        "main": "Does your child have?",
+        "p1": "Cold and cough?",
+        "p2": "High fever?",
+        "p3": "Rattling sound in the chest?",
+        "p4": "Rapid breathing?",
+        "p5": "Stopped eating and drinking?",
+        "ans": "Then they might have pneumonia."
+      },
+      "card4": {
+        "main": "Does your child have?",
+        "p1": "Runny nose?",
+        "p2": "Cough?",
+        "p3": "Fever?",
+        "p4": "Rattling sound in the chest?",
+        "ans": ""
+      },
+      "card5": {
+        "main": "Does your child have?",
+        "p1": "Constant fever?",
+        "p2": "Headache?",
+        "p3": "Decreased appetite?",
+        "p4": "Vomiting?",
+        "p5": "Abdominal pain?",
+        "ans": "Then they might have typhoid."
+      },
+      "card6": {
+        "main": "Does your child have?",
+        "p1": "High fever?",
+        "p2": "Decreased appetite?",
+        "p3": "Increased sleepiness?",
+        "p4": "Spots all over the body?",
+        "ans": "Then they might have measles."
+      },
+      "card7": {
+        "main": "Does your child have?",
+        "p1": "High fever?",
+        "p2": "Rashes on the body?",
+        "ans": "Then they might have chickenpox."
+      },
+      "card8": {
+        "main": "Does your child have?",
+        "p1": "Fever?",
+        "p2": "Bleeding?",
+        "p3": "Increased sleepiness?",
+        "ans": "Then they might have dengue."
+      },
+      "card9": {
+        "main": "Does your child have?",
+        "p1": "Yellow eyes?",
+        "p2": "Yellow urine?",
+        "p3": "Decreased appetite?",
+        "p4": "Vomiting?",
+        "p5": "Abdominal pain?",
+        "ans": "Then they might have jaundice."
+      }
+    },
+    "footer": {
+      "quickContact": {
+        "name": "Quick Contact",
+        "home": "Home",
+        "about": "About",
+        "service": "Service",
+        "facility": "Facility",
+        "gallery": "Gallery",
+        "contact": "Contact Us"
+      },
+      "getInTouch": {
+        "name": "Get in Touch",
+        "address": "Ishwar Palace, Varachha Main Road, near Soham Nagar, opposite Sargam Doctor House, Hirabag, Surat, Gujarat 395006",
+        "phone": {
+          "phone1": "(0261) 2540423",
+          "phone2": "(0261) 2550251"
+        },
+        "email": "vasant_gajera@yahoo.com",
+        "mobile": "9824310103"
+      },
+      "pera": "Gajera Children Hospital started in 1993. We are committed to compassionate care and innovation. Serving the community with excellence, we prioritize your well-being and recovery."
+    }
+  },
+  "facility": {
+    "name": "Facility",
+    "part1": {
+      "h1": "Welcome to Gajera Children Hospital.",
+      "point": {
+        "p1": "Gajera Children Hospital has been a premier children’s hospital in South Gujarat, located in the Hirabag area on Varachha Road, Surat city, operating since 1990.",
+        "p2": "This hospital has a total of 22 beds, including AC special rooms and two general wards with modern facilities.",
+        "p3": "It also has incubator facilities for newborns. Many insurance companies offer cashless facilities.",
+        "p4": "All kinds of vaccines are also provided at this hospital.",
+        "p5": "Our Gajera Children Hospital guarantees the best care in a child-friendly environment. We strive to provide quality care and a conducive environment. Your child's health is our priority."
+      }
+    },
+    "poster": "Providing modern facilities with child-friendly care.",
+    "footer": {
+      "quickContact": {
+        "name": "Quick Contact",
+        "home": "Home",
+        "about": "About",
+        "service": "Service",
+        "facility": "Facility",
+        "gallery": "Gallery",
+        "contact": "Contact Us"
+      },
+      "getInTouch": {
+        "name": "Get in Touch",
+        "address": "Ishwar Palace, Varachha Main Road, near Soham Nagar, opposite Sargam Doctor House, Hirabag, Surat, Gujarat 395006",
+        "phone": {
+          "phone1": "(0261) 2540423",
+          "phone2": "(0261) 2550251"
+        },
+        "email": "vasant_gajera@yahoo.com",
+        "mobile": "9824310103"
+      },
+      "pera": "Gajera Children Hospital started in 1993. We are committed to compassionate care and innovation. Serving the community with excellence, we prioritize your well-being and recovery."
+    }
+  },
+  "gallery": {
+    "name": "Gallery",
+    "part1": {
+      "h1": "Welcome to Gajera Children Hospital.",
+      "point": {
+        "p1": "Gajera Children Hospital has been a premier children’s hospital in South Gujarat, located in the Hirabag area on Varachha Road, Surat city, operating since 1990.",
+        "p2": "This hospital has a total of 22 beds, including AC special rooms and two general wards with modern facilities.",
+        "p3": "It also has incubator facilities for newborns. Many insurance companies offer cashless facilities.",
+        "p4": "All kinds of vaccines are also provided at this hospital.",
+        "p5": "Our Gajera Children Hospital guarantees the best care in a child-friendly environment. We strive to provide quality care and a conducive environment. Your child's health is our priority."
+      }
+    },
+    "poster": "Capturing moments of care and compassion.",
+    "footer": {
+      "quickContact": {
+        "name": "Quick Contact",
+        "home": "Home",
+        "about": "About",
+        "service": "Service",
+        "facility": "Facility",
+        "gallery": "Gallery",
+        "contact": "Contact Us"
+      },
+      "getInTouch": {
+        "name": "Get in Touch",
+        "address": "Ishwar Palace, Varachha Main Road, near Soham Nagar, opposite Sargam Doctor House, Hirabag, Surat, Gujarat 395006",
+        "phone": {
+          "phone1": "(0261) 2540423",
+          "phone2": "(0261) 2550251"
+        },
+        "email": "vasant_gajera@yahoo.com",
+        "mobile": "9824310103"
+      },
+      "pera": "Gajera Children Hospital started in 1993. We are committed to compassionate care and innovation. Serving the community with excellence, we prioritize your well-being and recovery."
+    }
+  },
+  "contact": {
+    "name": "Contact Us",
+    "part1": {
+      "h1": "We are always ready to help you.",
+      "point": {
+        "p1": "Our goal is to provide a healthy life for every child and make them stronger.",
+        "p2": "If you have any questions about our services, we will always be ready to help you."
+      }
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Message",
+      "button": "Submit"
+    },
+    "footer": {
+      "quickContact": {
+        "name": "Quick Contact",
+        "home": "Home",
+        "about": "About",
+        "service": "Service",
+        "facility": "Facility",
+        "gallery": "Gallery",
+        "contact": "Contact Us"
+      },
+      "getInTouch": {
+        "name": "Get in Touch",
+        "address": "Ishwar Palace, Varachha Main Road, near Soham Nagar, opposite Sargam Doctor House, Hirabag, Surat, Gujarat 395006",
+        "phone": {
+          "phone1": "(0261) 2540423",
+          "phone2": "(0261) 2550251"
+        },
+        "email": "vasant_gajera@yahoo.com",
+        "mobile": "9824310103"
+      },
+      "pera": "Gajera Children Hospital started in 1993. We are committed to compassionate care and innovation. Serving the community with excellence, we prioritize your well-being and recovery."
+    }
+  },
+  "footer": {
+    "quickContact": {
+      "name": "Quick Contact",
+      "home": "Home",
+      "about": "About",
+      "service": "Service",
+      "facility": "Facility",
+      "gallery": "Gallery",
+      "contact": "Contact Us"
+    },
+    "getInTouch": {
+      "name": "Get in Touch",
+      "address": "Ishwar Palace, Varachha Main Road, near Soham Nagar, opposite Sargam Doctor House, Hirabag, Surat, Gujarat 395006",
+      "phone": {
+        "phone1": "(0261) 2540423",
+        "phone2": "(0261) 2550251"
+      },
+      "email": "vasant_gajera@yahoo.com",
+      "mobile": "9824310103"
+    },
+    "pera": "Gajera Children Hospital started in 1993. We are committed to compassionate care and innovation. Serving the community with excellence, we prioritize your well-being and recovery."
+  }
+}
