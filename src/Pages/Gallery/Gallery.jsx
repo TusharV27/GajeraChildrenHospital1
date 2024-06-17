@@ -8,7 +8,7 @@ import {
 import { MdWhatsapp } from "react-icons/md";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import BackgroundSection from "./BackgroundSection";
+// import BackgroundSection from "./BackgroundSection";
 
 const Gallery = () => {
   useEffect(() => {
@@ -43,7 +43,7 @@ const Gallery = () => {
 
   return (
     <>
-      <BackgroundSection />
+      {/* <BackgroundSection /> */}
       <div className="text-center px-4 md:px-0">
         <h1
           className="text-2xl md:text-4xl font-bold text-[#023F88]"

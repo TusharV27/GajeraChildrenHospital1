@@ -3,6 +3,7 @@ import Main from "./Pages/Main";
 import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About";
 import ContactUs from "./Pages/ContactUs/ContactUs";
+import Gallery from "./Pages/Gallery/Gallery";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
             <Route path="" element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<ContactUs />} />
+            <Route path="gallery" element={<Gallery />} />
           </Route>
         </Routes>
       </BrowserRouter>
