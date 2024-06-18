@@ -195,25 +195,29 @@ function Footer({ language }) {
             </p>
             <div className="flex justify-center md:justify-start m-6 space-x-4 text-2xl">
               <a
-                href="#"
+                href="https://www.youtube.com/channel/UCaVGlN3g_OpIeialUlhgk4A"
+                target="_blank"
                 className="text-blue-900 hover:bg-[#023F88] hover:text-white p-2 rounded-full transition delay-100 duration-300 ease-in-out"
               >
                 <FaYoutube />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/gajerachildrenhospital/"
+                target="_blank"
                 className="text-blue-900 hover:bg-[#023F88] hover:text-white p-2 rounded-full transition delay-100 duration-300 ease-in-out"
               >
                 <FaFacebookF />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/drvasantgajera/?hl=en"
+                target="_blank"
                 className="text-blue-900 hover:bg-[#023F88] hover:text-white p-2 rounded-full transition delay-150 duration-300 ease-in-out"
               >
                 <FaInstagram />
               </a>
               <a
-                href="#"
+                href="https://api.whatsapp.com/send/?phone=9824310103&text&type=phone_number&app_absent=0"
+                target="_blank"
                 className="text-blue-900 hover:bg-[#023F88] hover:text-white p-2 rounded-full transition delay-150 duration-300 ease-in-out"
               >
                 <MdWhatsapp />

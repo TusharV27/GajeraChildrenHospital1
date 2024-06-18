@@ -7,7 +7,7 @@ import React, { useState, useEffect } from "react";
 import { getTranslations } from "../../translations/data";
 // import Background from "./Background";
 import "./Background.css";
-import backgroundImage from "./image1.png";
+import backgroundImage from "./WhatsApp Image 2024-06-18 at 3.57.02 PM.jpeg";
 
 const Background = ({ text }) => {
   return (
@@ -59,10 +59,10 @@ function ContactUs({ language }) {
           {data.contact.h2}
         </p>
       </div>
-      <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 mx-4 md:mx-44 p-4">
+      <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 mx-4 md:mx-36 p-4">
         <div
           class="basis-full md:basis-1/3 flex items-center bg-white dark:bg-zinc-800 shadow-xl rounded-lg p-4"
-          data-aos="fade-up"
+          data-aos="zoom-in"
         >
           <div class="bg-[#023F88] text-white text-3xl p-3 rounded-md">
             <FaPhone />
@@ -88,7 +88,7 @@ function ContactUs({ language }) {
         </div>
         <div
           class="basis-full md:basis-1/3 flex items-center bg-white dark:bg-zinc-800 shadow-xl rounded-lg p-4"
-          data-aos="fade-up"
+          data-aos="zoom-in"
         >
           <div class="bg-[#023F88] text-white text-3xl p-3 rounded-md">
             <FaLocationDot />
@@ -107,7 +107,7 @@ function ContactUs({ language }) {
         </div>
         <div
           class="basis-full md:basis-1/3 flex items-center bg-white dark:bg-zinc-800 shadow-xl rounded-lg p-4"
-          data-aos="fade-up"
+          data-aos="zoom-in"
         >
           <div class="bg-[#023F88] text-white text-3xl p-3 rounded-md">
             <FaEnvelopeOpen />

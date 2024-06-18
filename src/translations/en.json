@@ -18,6 +18,9 @@
         "p5": "Our Gajera Children Hospital guarantees the best care in a child-friendly environment. We strive to provide quality care and a conducive environment. Your child's health is our priority."
       }
     },
+    "blog": "Blogs",
+    "button": "Read More",
+    "mp": "What They Say About Us",
     "poster1": "Hope is our recipe, laughter is our treatment, and love is our cure.",
     "review": [
       {
@@ -94,6 +97,7 @@
         }
       },
       "card2": {
+        "title": "Medical Assistance",
         "name": "24-hour emergency assistant doctor service."
       }
     },
@@ -159,14 +163,14 @@
         "main": "Does your child have?",
         "p1": "Vomiting?",
         "p2": "Watery diarrhea?",
-        "p3": "Does diarrhea smell?",
+        "p3": "Does the diarrhea smell?",
         "ans": "Then they might have gastroenteritis."
       },
       "card2": {
         "main": "Does your child have?",
-        "p1": "Vomiting with diarrhea?",
+        "p1": "Diarrhea with vomiting?",
         "p2": "Sunken eyes?",
-        "p3": "Decreased urine output?",
+        "p3": "Decreased urination?",
         "p4": "Wrinkled skin?",
         "p5": "Yellow urine?",
         "p6": "Increased sleepiness?",
@@ -176,7 +180,7 @@
         "main": "Does your child have?",
         "p1": "Cold and cough?",
         "p2": "High fever?",
-        "p3": "Rattling sound in the chest?",
+        "p3": "Rattling sound from the chest?",
         "p4": "Rapid breathing?",
         "p5": "Stopped eating and drinking?",
         "ans": "Then they might have pneumonia."
@@ -186,47 +190,66 @@
         "p1": "Runny nose?",
         "p2": "Cough?",
         "p3": "Fever?",
-        "p4": "Rattling sound in the chest?",
-        "ans": ""
+        "p4": "Rattling sound from the chest?",
+        "ans": "Then they might have a respiratory infection."
       },
       "card5": {
         "main": "Does your child have?",
-        "p1": "Constant fever?",
+        "p1": "Continuous fever?",
         "p2": "Headache?",
-        "p3": "Decreased appetite?",
-        "p4": "Vomiting?",
-        "p5": "Abdominal pain?",
-        "ans": "Then they might have typhoid."
+        "p3": "Joint pain?",
+        "p4": "Red spots on the chest?",
+        "ans": "Then they might have dengue fever."
       },
       "card6": {
         "main": "Does your child have?",
-        "p1": "High fever?",
-        "p2": "Decreased appetite?",
-        "p3": "Increased sleepiness?",
-        "p4": "Spots all over the body?",
-        "ans": "Then they might have measles."
+        "p1": "Fever?",
+        "p2": "Stomach ache?",
+        "p3": "Nausea or vomiting?",
+        "p4": "Reduced appetite?",
+        "ans": "Then they might have typhoid fever."
       },
       "card7": {
         "main": "Does your child have?",
-        "p1": "High fever?",
-        "p2": "Rashes on the body?",
-        "ans": "Then they might have chickenpox."
+        "p1": "Low-grade fever?",
+        "p2": "Reduced appetite for a week?",
+        "p3": "Yellow urine?",
+        "p4": "Nausea or vomiting?",
+        "p5": "Stomach ache?",
+        "p6": "Yellow eyes?",
+        "ans": "Then they might have simple or infectious jaundice."
       },
       "card8": {
         "main": "Does your child have?",
-        "p1": "Fever?",
-        "p2": "Bleeding?",
-        "p3": "Increased sleepiness?",
-        "ans": "Then they might have dengue."
+        "p1": "Fever with chills every twelve hours?",
+        "p2": "Headache with fever?",
+        "p3": "Body aches?",
+        "p4": "Vomiting?",
+        "ans": "Then they might have malaria."
       },
       "card9": {
         "main": "Does your child have?",
-        "p1": "Yellow eyes?",
-        "p2": "Yellow urine?",
-        "p3": "Decreased appetite?",
-        "p4": "Vomiting?",
-        "p5": "Abdominal pain?",
-        "ans": "Then they might have jaundice."
+        "p1": "Frequent urination?",
+        "p2": "Interrupted urination?",
+        "p3": "Fever?",
+        "p4": "Crying while urinating?",
+        "p5": "Itching in the genital area?",
+        "ans": "Then they might have a urinary tract infection."
+      },
+      "card10": {
+        "main": "Does your child have?",
+        "p1": "Stomach ache?",
+        "p2": "Itching around the anus?",
+        "p3": "Trouble sleeping at night?",
+        "p4": "Habit of eating soil?",
+        "ans": "Then they might have worms."
+      },
+      "card11": {
+        "main": "Does your child have?",
+        "p1": "Reduced appetite?",
+        "p2": "Habit of eating soil?",
+        "p3": "Pale skin?",
+        "ans": "Then they might have anemia."
       }
     },
     "footer": {
@@ -255,13 +278,72 @@
   "facility": {
     "name": "Facility",
     "part1": {
-      "h1": "Welcome to Gajera Children Hospital.",
+      "h1": "Service Activities Of The Hospital",
       "point": {
-        "p1": "Gajera Children Hospital has been a premier children’s hospital in South Gujarat, located in the Hirabag area on Varachha Road, Surat city, operating since 1990.",
-        "p2": "This hospital has a total of 22 beds, including AC special rooms and two general wards with modern facilities.",
-        "p3": "It also has incubator facilities for newborns. Many insurance companies offer cashless facilities.",
-        "p4": "All kinds of vaccines are also provided at this hospital.",
-        "p5": "Our Gajera Children Hospital guarantees the best care in a child-friendly environment. We strive to provide quality care and a conducive environment. Your child's health is our priority."
+        "p1": "Free treatment for orphans.",
+        "p2": "Concessional treatment for children of disabled parents.",
+        "p3": "Concessional treatment to children of widowed mothers.",
+        "p4": "BP concessional treatment to L card holders.",
+        "p5": "Rahat Bhavno Medical Store in Hospital."
+      }
+    },
+    "image": {
+      "h1": "We provide facilities like…",
+      "image1": {
+        "url": "/images/1.jpg",
+        "name": "Pediatrics Department"
+      },
+      "image2": {
+        "url": "/images/1.jpg",
+        "name": "22 Bed Hospital"
+      },
+      "image3": {
+        "url": "/images/1.jpg",
+        "name": "Special AC Room"
+      },
+      "image4": {
+        "url": "/images/1.jpg",
+        "name": "Glass Box for Children"
+      },
+      "image5": {
+        "url": "/images/1.jpg",
+        "name": "Neonatal Care Machine"
+      },
+      "image6": {
+        "url": "/images/1.jpg",
+        "name": "Machine to Measure Blood Oxygen Level"
+      },
+      "image7": {
+        "url": "/images/1.jpg",
+        "name": "Machine to Measure Blood Sugar Level"
+      },
+      "image8": {
+        "url": "/images/1.jpg",
+        "name": "Vaccination Center"
+      },
+      "image9": {
+        "url": "/images/1.jpg",
+        "name": "Injection Giving Machine"
+      },
+      "image10": {
+        "url": "/images/1.jpg",
+        "name": "Laboratory Facility"
+      },
+      "image11": {
+        "url": "/images/1.jpg",
+        "name": "Hospital Approved by Every Insurance Company"
+      },
+      "image12": {
+        "url": "/images/1.jpg",
+        "name": "Central Oxygen Line"
+      },
+      "image13": {
+        "url": "/images/1.jpg",
+        "name": "Treatment Of Infusion Pumps"
+      },
+      "image14": {
+        "url": "/images/1.jpg",
+        "name": "Steaming Machine For Baby"
       }
     },
     "poster": "Providing modern facilities with child-friendly care.",
@@ -290,6 +372,7 @@
   },
   "gallery": {
     "name": "Gallery",
+    "h1": "Review the testimonial video",
     "part1": {
       "h1": "Welcome to Gajera Children Hospital.",
       "point": {

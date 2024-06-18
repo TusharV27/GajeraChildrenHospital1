@@ -33,10 +33,10 @@ function Main() {
           />
           <Routes>
             <Route path="" element={<Home language={language} />} />
-            <Route path="about" element={<About />} />
-            <Route path="service" element={<Service />} />
-            <Route path="facility" element={<Facility />} />
-            <Route path="gallery" element={<Gallery />} />
+            <Route path="about" element={<About language={language} />} />
+            <Route path="service" element={<Service language={language} />} />
+            <Route path="facility" element={<Facility language={language} />} />
+            <Route path="gallery" element={<Gallery language={language} />} />
             <Route path="contact" element={<ContactUs language={language} />} />
           </Routes>
           <div className="w-full h-full">

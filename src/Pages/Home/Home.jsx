@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import img1 from "./banner.jpg";
 import img1 from "./image.png";
 import img2 from "./ipd.jpg";
 import Welcome from "../Common/Welcom";
@@ -16,6 +15,8 @@ import image4 from "./Image4.jpg";
 import image5 from "./Image5.jpg";
 import { getTranslations } from "../../translations/data";
 let cards = [];
+let mainText = "";
+
 const MainImage = () => {
   const [currentImage, setCurrentImage] = useState(img1);
 
@@ -32,7 +33,7 @@ const MainImage = () => {
   }, []);
   return (
     <div>
-      <header className="w-full py-24 h-auto bg-white px-4 md:px-20">
+      <header className="w-full pt-20 pb-8 md:py-24 h-auto bg-white px-4 md:px-20">
         <img src={currentImage} alt="" className="w-full h-auto" />
       </header>
     </div>
@@ -95,7 +96,7 @@ const CardSwiper = ({ review }) => {
       },
     ],
   };
-  console.log(cards);
+  console.log(review);
 
   return (
     <div className="mx-10 md:mx-20 my-20">
@@ -104,13 +105,13 @@ const CardSwiper = ({ review }) => {
           className="text-[#023F88] text-2xl md:text-3xl font-bold pb-2 md:pb-4 border-b-2 border-orange-500 inline-block mb-12 md:mb-12"
           data-aos="fade-up"
         >
-          What They Say About Us
+          {mainText}
         </h3>
       </div>
 
       <Slider {...settings}>
         {cards.map((card, index) => (
-          <div key={index} className="px-2">
+          <div key={index} className="px-2" data-aos="fade-up">
             <Card title={card.name} description={card.p} />
           </div>
         ))}
@@ -119,18 +120,25 @@ const CardSwiper = ({ review }) => {
   );
 };
 
-const Blog = () => {
+const Blog = ({ text }) => {
+  AOS.init({
+    duration: 2000,
+  });
   const images = [image1, image2, image3, image4, image5];
   return (
     <div className="max-w-screen-lg mx-auto mt-8">
-      <h1 className="text-2xl md:text-3xl font-bold text-center text-blue-700 mb-10">
-        <span className="border-b-2 border-orange-500 pb-2">Blogs</span>
+      <h1
+        className="text-2xl md:text-3xl font-bold text-center text-[#023f88] mb-10"
+        data-aos="fade-up"
+      >
+        <span className="border-b-2 border-orange-500 pb-2">{text}</span>
       </h1>
       <div className="grid grid-cols-1 mx-5 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {images.map((image, index) => (
           <div
             key={index}
             className="bg-white rounded-lg overflow-hidden shadow-md"
+            data-aos="fade-up"
           >
             <img
               src={image}
@@ -145,6 +153,10 @@ const Blog = () => {
 };
 
 function Home({ language }) {
+  AOS.init({
+    duration: 2000,
+  });
+
   console.log(language);
   const [data, setData] = useState(null);
 
@@ -161,6 +173,7 @@ function Home({ language }) {
     return <div>Loading...</div>;
   }
   cards = data.home.review;
+  mainText = data.home.mp;
   return (
     <div>
       <>
@@ -169,11 +182,22 @@ function Home({ language }) {
       <>
         <Welcome language={language} />
       </>
+      <div
+        className="w-full flex items-center justify-center"
+        data-aos="fade-up"
+      >
+        <button
+          onClick={() => (window.location.href = "/about")}
+          className="bg-[#023f88] text-white py-2 px-6 rounded hover:bg-blue-800"
+        >
+          {data.home.button}
+        </button>
+      </div>
       <>
         <CardSwiper review={data.home.review} />
       </>
       <>
-        <Blog />
+        <Blog text={data.home.blog} />
       </>
     </div>
   );
