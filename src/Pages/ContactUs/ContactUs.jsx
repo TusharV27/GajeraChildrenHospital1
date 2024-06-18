@@ -68,7 +68,7 @@ function ContactUs({ language }) {
             <FaPhone />
           </div>
           <div class="ml-4">
-            <h3 class="text-lg font-semibold text-zinc-900 dark:text-zinc-100 opacity-95">
+            <h3 class="text-lg font-semibold text-zinc-900 opacity-95">
               {/* Call To Make An Appointment */}
               {data.contact.cards.card1.name}
             </h3>
@@ -94,7 +94,7 @@ function ContactUs({ language }) {
             <FaLocationDot />
           </div>
           <div class="ml-4">
-            <h3 class="text-lg font-semibold text-zinc-900 dark:text-zinc-100 opacity-95">
+            <h3 class="text-lg font-semibold text-zinc-900 opacity-95">
               {/* Visit Our Hospital */}
               {data.contact.cards.card2.name}
             </h3>
@@ -113,7 +113,7 @@ function ContactUs({ language }) {
             <FaEnvelopeOpen />
           </div>
           <div class="ml-4">
-            <h3 class="text-lg font-semibold text-zinc-900 dark:text-zinc-100 opacity-95">
+            <h3 class="text-lg font-semibold text-zinc-900 opacity-95">
               {/* Email To Get Enquiry */}
               {data.contact.cards.card3.name}
             </h3>
