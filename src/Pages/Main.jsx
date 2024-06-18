@@ -1,7 +1,14 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./Navigation/Navbar";
-import { Outlet } from "react-router-dom";
+import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
 import Footer from "./Navigation/Footer";
+
+import Home from "./Home/Home";
+import About from "./About/About";
+import Service from "./Service/Service";
+import Facility from "./Facility/Facility";
+import Gallery from "./Gallery/Gallery";
+import ContactUs from "./ContactUs/ContactUs";
 
 function Main() {
   const [language, setLanguage] = useState(
@@ -18,16 +25,26 @@ function Main() {
   };
   return (
     <div>
-      <div>
-        <Navbar
-          handleChangeLanguage={handleChangeLanguage}
-          language={language}
-        />
-        <div className="w-full h-full pt-20">
-          <Outlet />
+      <BrowserRouter>
+        <div>
+          <Navbar
+            handleChangeLanguage={handleChangeLanguage}
+            language={language}
+          />
+          <Routes>
+            <Route path="" element={<Home language={language} />} />
+            <Route path="about" element={<About />} />
+            <Route path="service" element={<Service />} />
+            <Route path="facility" element={<Facility />} />
+            <Route path="gallery" element={<Gallery />} />
+            <Route path="contact" element={<ContactUs language={language} />} />
+          </Routes>
+          <div className="w-full h-full">
+            <Outlet />
+          </div>
+          <Footer language={language} />
         </div>
-        <Footer />
-      </div>
+      </BrowserRouter>
     </div>
   );
 }

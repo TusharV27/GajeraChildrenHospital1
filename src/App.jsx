@@ -8,16 +8,7 @@ import Gallery from "./Pages/Gallery/Gallery";
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Main />}>
-            <Route path="" element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="contact" element={<ContactUs />} />
-            <Route path="gallery" element={<Gallery />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+      <Main />
     </>
   );
 }

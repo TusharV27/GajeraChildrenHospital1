@@ -111,9 +111,8 @@ import { FaYoutube } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { MdWhatsapp } from "react-icons/md";
-function Footer() {
+function Footer({ language }) {
   const [data, setData] = useState(null);
-  const [language, setLanguage] = useState(localStorage.getItem("language"));
 
   useEffect(() => {
     const fetchData = async () => {
@@ -123,7 +122,6 @@ function Footer() {
 
     fetchData();
   }, [language]);
-  console.log(language);
 
   if (!data) {
     return <div>Loading...</div>;
@@ -140,23 +138,25 @@ function Footer() {
               className="mx-auto mb-4 w-[250px] h-[90px]"
             />
             <p className="text-[#023F88] mt-4 text-xl font-[400] tracking-tighter">
-              Gajera Children Hospital started in 1993. We are committed to
+              {/* Gajera Children Hospital started in 1993. We are committed to
               compassionate care and innovation. Serving the community with
-              excellence, we prioritize your well-being and recovery.
+              excellence, we prioritize your well-being and recovery. */}
+              {data.footer.pera}
             </p>
           </div>
           <div className="basis-full text-start md:basis-1/3 mb-8 md:text-center">
             <h3 className="text-[#023F88] text-xl md:text-2xl font-bold border-b-2 border-orange-500 inline-block mb-4">
-              QUICK CONTACT
+              {/* QUICK CONTACT */}
+              {data.footer.quickContact.name}
             </h3>
             <ul className="text-[#023F88] space-y-2 md:ml-28">
               {[
-                "house",
-                "about",
-                "service",
-                "facility",
-                "Gallery",
-                "contact us",
+                `${data.footer.quickContact.home}`,
+                `${data.footer.quickContact.about}`,
+                `${data.footer.quickContact.service}`,
+                `${data.footer.quickContact.facility}`,
+                `${data.footer.quickContact.gallery}`,
+                `${data.footer.quickContact.contact}`,
               ].map((item, index) => (
                 <li key={index} className="flex items-center font-[500]">
                   <FaChevronRight className="text-orange-500" />
@@ -169,17 +169,29 @@ function Footer() {
           </div>
           <div className="basis-full md:basis-1/3 text-start md:text-left text-xl font-[400] tracking-tighter">
             <h3 className="text-[#023F88] text-xl md:text-2xl font-bold border-b-2 border-orange-500 inline-block mb-4">
-              GET IN TOUCH
+              {/* GET IN TOUCH */}
+              {data.footer.getInTouch.name}
             </h3>
             <p className="text-[#023F88]">
-              Ishwar Palace, Varachha Main Road, Near Soham Nagar, Opposite
-              Sargam Doctor House, Hirabagh, Surat, Gujarat 395006
+              {/* Ishwar Palace, Varachha Main Road, Near Soham Nagar, Opposite
+              Sargam Doctor House, Hirabagh, Surat, Gujarat 395006 */}
+              {data.footer.getInTouch.address}
             </p>
             <p className="text-[#023F88] mt-2">
-              <strong>Phone :</strong> (0261) 2550251
+              <span className="flex ">
+                <strong>Phone :</strong>{" "}
+                <div className="ml-2">
+                  {data.footer.getInTouch.phone.phone1}
+                  <br />
+                  {data.footer.getInTouch.phone.phone2}
+                </div>
+              </span>
             </p>
             <p className="text-[#023F88] mt-2">
-              <strong>Email :</strong> vasant_gajera@yahoo.com
+              <strong>Mobile :</strong> +91 {data.footer.getInTouch.mobile}
+            </p>
+            <p className="text-[#023F88] mt-2">
+              <strong>Email :</strong> {data.footer.getInTouch.email}
             </p>
             <div className="flex justify-center md:justify-start m-6 space-x-4 text-2xl">
               <a

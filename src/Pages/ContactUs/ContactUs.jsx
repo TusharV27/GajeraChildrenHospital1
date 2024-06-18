@@ -3,18 +3,60 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaEnvelopeOpen } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css";
-function ContactUs() {
+import React, { useState, useEffect } from "react";
+import { getTranslations } from "../../translations/data";
+// import Background from "./Background";
+import "./Background.css";
+import backgroundImage from "./image1.png";
+
+const Background = ({ text }) => {
+  return (
+    <div
+      className="background-container"
+      style={{ backgroundImage: `url(${backgroundImage})` }}
+    >
+      <div className="overlay1">
+        <h1>{text}</h1>
+      </div>
+    </div>
+  );
+};
+
+function ContactUs({ language }) {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    console.log(location);
+  }, [location]);
+  useEffect(() => {
+    const fetchData = async () => {
+      const translations = await getTranslations(language);
+      setData(translations);
+    };
+
+    fetchData();
+  }, [language]);
+  console.log(data);
+
+  if (!data) {
+    return <div>Loading...</div>;
+  }
   AOS.init({
     duration: 2000,
   });
   return (
     <>
-      <div className="text-center my-10" data-aos="fade-up">
-        <h1 className="text-[#023F88] p-2 text-3xl md:text-4xl font-semibold border-b-2 border-orange-500 inline-block mb-4">
-          Stay in touch with us
+      <>
+        <Background text={data.contact.name} />
+      </>
+      <div className="text-center" data-aos="fade-up">
+        <h1 className="text-[#023F88] p-2 text-3xl md:text-4xl font-semibold border-b-2 border-orange-500 inline-block mb-4 my-44">
+          {/* Stay in touch with us */}
+          {data.contact.h1}
         </h1>
         <p className="text-2xl text-black">
-          If you have any questions, feel free to contact us
+          {/* If you have any questions, feel free to contact us */}
+          {data.contact.h2}
         </p>
       </div>
       <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 mx-4 md:mx-44 p-4">
@@ -27,13 +69,20 @@ function ContactUs() {
           </div>
           <div class="ml-4">
             <h3 class="text-lg font-semibold text-zinc-900 dark:text-zinc-100 opacity-95">
-              Call To Make An Appointment
+              {/* Call To Make An Appointment */}
+              {data.contact.cards.card1.name}
             </h3>
             <p class="text-[rgb(13,110,253)] text-lg">
-              <a href="tel:(0261) 2550251">(0261) 2550251</a>
+              <a href="tel:(0261) 2550251">
+                {data.contact.cards.card1.phone.phone1}
+              </a>
+              <br />
+              <a href="tel:(0261) 2550251">
+                {data.contact.cards.card1.phone.phone2}
+              </a>
             </p>
             <p class="text-[rgb(13,110,253)] text-lg">
-              <a href="tel:9824310103">9824310103</a>
+              <a href="tel:9824310103">{data.contact.cards.card1.mobile}</a>
             </p>
           </div>
         </div>
@@ -46,11 +95,13 @@ function ContactUs() {
           </div>
           <div class="ml-4">
             <h3 class="text-lg font-semibold text-zinc-900 dark:text-zinc-100 opacity-95">
-              Visit Our Hospital
+              {/* Visit Our Hospital */}
+              {data.contact.cards.card2.name}
             </h3>
             <p class="text-[rgb(13,110,253)] text-md">
-              14, Ishwar Palace, Varachha Main Road, Near Soham Nagar, Opposite
-              Sargam Doctor House, Hirabagh, Surat, Gujarat 395006
+              {/* 14, Ishwar Palace, Varachha Main Road, Near Soham Nagar, Opposite
+              Sargam Doctor House, Hirabagh, Surat, Gujarat 395006 */}
+              {data.contact.cards.card2.address}
             </p>
           </div>
         </div>
@@ -63,11 +114,12 @@ function ContactUs() {
           </div>
           <div class="ml-4">
             <h3 class="text-lg font-semibold text-zinc-900 dark:text-zinc-100 opacity-95">
-              Email To Get Enquiry
+              {/* Email To Get Enquiry */}
+              {data.contact.cards.card3.name}
             </h3>
             <p class="text-[rgb(13,110,253)] text-md">
               <a href="mailto:vasant_gajera@yahoo.com">
-                vasant_gajera@yahoo.com
+                {data.contact.cards.card3.email}
               </a>
             </p>
           </div>

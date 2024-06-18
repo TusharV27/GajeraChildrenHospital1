@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import img1 from "./banner.jpg";
+// import img1 from "./banner.jpg";
+import img1 from "./image.png";
 import img2 from "./ipd.jpg";
 import Welcome from "../Common/Welcom";
 import Slider from "react-slick";
@@ -13,7 +14,8 @@ import image2 from "./Image2.jpg";
 import image3 from "./Image3.jpg";
 import image4 from "./Image4.jpg";
 import image5 from "./Image5.jpg";
-
+import { getTranslations } from "../../translations/data";
+let cards = [];
 const MainImage = () => {
   const [currentImage, setCurrentImage] = useState(img1);
 
@@ -30,7 +32,7 @@ const MainImage = () => {
   }, []);
   return (
     <div>
-      <header className="w-full h-auto bg-white px-4 md:px-20">
+      <header className="w-full py-24 h-auto bg-white px-4 md:px-20">
         <img src={currentImage} alt="" className="w-full h-auto" />
       </header>
     </div>
@@ -45,7 +47,7 @@ const Card = ({ title, description }) => (
     <div className="text-center">
       <h3 className="text-xl font-semibold mb-4">{title}</h3>
     </div>
-    <div className="text-center text-lg">
+    <div className="text-center text-sm">
       <p className="mb-4">{description}</p>
     </div>
     <div className="flex justify-center ">
@@ -58,40 +60,8 @@ const Card = ({ title, description }) => (
   </div>
 );
 
-const cards = [
-  {
-    id: 1,
-    title: "Rakesh Ahir",
-    description:
-      "Best hospital in Surat. All the doctors and hospital staff are well trained. They take care and get regular follow ups of every patients. All Doctor is very humble.",
-  },
-  {
-    id: 2,
-    title: "Kavad Dhruti",
-    description:
-      "We immensely value your expression of appreciation for our healthcare services. It keeps us motivated to serve you first best always. Thank you",
-  },
-  {
-    id: 3,
-    title: "Rinku Nakum",
-    description:
-      "Very good experience at hospital... Polite staff... Well experienced doctors... Best treatment for newborns",
-  },
-  {
-    id: 4,
-    title: "Vishal Tarsariya",
-    description:
-      "Best children hospital in Surat. Also available ayushman bharat yojana. Good staff Humbley talking Appreciate for the doctors",
-  },
-  {
-    id: 5,
-    title: "Hiren Chauhan",
-    description:
-      "I have few points to give five starts for this hospital, Very good experience Doctor, Caring nursing staff. , Very clean hospital, Providing NICU for new born baby., It has operation theater.",
-  },
-];
-
-const CardSwiper = () => {
+const CardSwiper = ({ review }) => {
+  // const [cards, setCards] = useState(review);
   useEffect(() => {
     AOS.init({
       duration: 2000,
@@ -125,6 +95,7 @@ const CardSwiper = () => {
       },
     ],
   };
+  console.log(cards);
 
   return (
     <div className="mx-10 md:mx-20 my-20">
@@ -138,9 +109,9 @@ const CardSwiper = () => {
       </div>
 
       <Slider {...settings}>
-        {cards.map((card) => (
-          <div key={card.id} className="px-2">
-            <Card title={card.title} description={card.description} />
+        {cards.map((card, index) => (
+          <div key={index} className="px-2">
+            <Card title={card.name} description={card.p} />
           </div>
         ))}
       </Slider>
@@ -173,17 +144,33 @@ const Blog = () => {
   );
 };
 
-function Home() {
+function Home({ language }) {
+  console.log(language);
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const translations = await getTranslations(language);
+      setData(translations);
+    };
+
+    fetchData();
+  }, [language]);
+
+  if (!data) {
+    return <div>Loading...</div>;
+  }
+  cards = data.home.review;
   return (
     <div>
       <>
         <MainImage />
       </>
       <>
-        <Welcome />
+        <Welcome language={language} />
       </>
       <>
-        <CardSwiper />
+        <CardSwiper review={data.home.review} />
       </>
       <>
         <Blog />

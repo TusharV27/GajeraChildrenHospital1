@@ -19,33 +19,33 @@
       }
     },
     "poster1": "Hope is our recipe, laughter is our treatment, and love is our cure.",
-    "review": {
-      "card1": {
+    "review": [
+      {
         "name": "Rakesh Ahir",
         "p": "Best hospital in Surat. All doctors and hospital staff are well-trained. They take care and provide regular follow-ups for every patient. All doctors are very polite.",
         "star": "5"
       },
-      "card2": {
+      {
         "name": "Kavad Dhruti",
         "p": "We highly value your expression of appreciation for our healthcare services. It always motivates us to serve you better. Thank you.",
         "star": "4"
       },
-      "card3": {
+      {
         "name": "Rinku Nakum",
         "p": "Very good experience in the hospital... polite staff... good experienced doctors... best care for newborns.",
         "star": "3"
       },
-      "card4": {
+      {
         "name": "Vishal Thasariya",
         "p": "Best children’s hospital in Surat. Ayushman Bharat scheme is also available. Good staff, polite communication, appreciation for doctors.",
         "star": "5"
       },
-      "card5": {
+      {
         "name": "Hiren Chauhan",
         "p": "I have five points to start with for this hospital: very good experience, doctor, caring nursing staff, very clean hospital, provides NICU for newborns, has an operation theater.",
         "star": "5"
       }
-    },
+    ],
     "poster2": "Let's connect and build meaningful relationships.",
     "footer": {
       "quickContact": {
@@ -326,20 +326,22 @@
   },
   "contact": {
     "name": "Contact Us",
-    "part1": {
-      "h1": "We are always ready to help you.",
-      "point": {
-        "p1": "Our goal is to provide a healthy life for every child and make them stronger.",
-        "p2": "If you have any questions about our services, we will always be ready to help you."
+    "h1": "Stay in Touch with Us",
+    "h2": "Feel free to contact us if you have any questions.",
+    "cards": {
+      "card1": {
+        "name": "Call for Appointments",
+        "phone": { "phone1": "(0261) 2540423", "phone2": "(0261) 2550251" },
+        "mobile": "9824310103"
+      },
+      "card2": {
+        "name": "Visit Our Hospital",
+        "address": "14, Ishwar Palace, Varachha Main Road, Near Soham Nagar, Opposite Sargam Doctor House, Hira Bag, Surat, Gujarat 395006"
+      },
+      "card3": {
+        "name": "Email for Queries",
+        "email": "vasant_gajera@yahoo.com"
       }
-    },
-    "form": {
-      "name": "Name",
-      "email": "Email",
-      "phone": "Phone",
-      "subject": "Subject",
-      "message": "Message",
-      "button": "Submit"
     },
     "footer": {
       "quickContact": {
