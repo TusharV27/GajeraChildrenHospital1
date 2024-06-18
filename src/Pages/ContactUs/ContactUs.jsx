@@ -50,7 +50,7 @@ function ContactUs({ language }) {
         <Background text={data.contact.name} />
       </>
       <div className="text-center" data-aos="fade-up">
-        <h1 className="text-[#023F88] p-2 text-3xl md:text-4xl font-semibold border-b-2 border-orange-500 inline-block mb-4 my-44">
+        <h1 className="text-[#023F88] p-2 text-3xl md:text-4xl font-semibold border-b-2 border-orange-500 inline-block mb-4 mt-10 md:my-44">
           {/* Stay in touch with us */}
           {data.contact.h1}
         </h1>
@@ -61,7 +61,7 @@ function ContactUs({ language }) {
       </div>
       <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 mx-4 md:mx-36 p-4">
         <div
-          class="basis-full md:basis-1/3 flex items-center bg-white dark:bg-zinc-800 shadow-xl rounded-lg p-4"
+          class="basis-full md:basis-1/3 flex items-center bg-white shadow-xl rounded-lg p-4"
           data-aos="zoom-in"
         >
           <div class="bg-[#023F88] text-white text-3xl p-3 rounded-md">
@@ -87,7 +87,7 @@ function ContactUs({ language }) {
           </div>
         </div>
         <div
-          class="basis-full md:basis-1/3 flex items-center bg-white dark:bg-zinc-800 shadow-xl rounded-lg p-4"
+          class="basis-full md:basis-1/3 flex items-center bg-white shadow-xl rounded-lg p-4"
           data-aos="zoom-in"
         >
           <div class="bg-[#023F88] text-white text-3xl p-3 rounded-md">
@@ -106,7 +106,7 @@ function ContactUs({ language }) {
           </div>
         </div>
         <div
-          class="basis-full md:basis-1/3 flex items-center bg-white dark:bg-zinc-800 shadow-xl rounded-lg p-4"
+          class="basis-full md:basis-1/3 flex items-center bg-white  shadow-xl rounded-lg p-4"
           data-aos="zoom-in"
         >
           <div class="bg-[#023F88] text-white text-3xl p-3 rounded-md">

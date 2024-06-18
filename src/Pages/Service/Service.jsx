@@ -215,13 +215,15 @@ function Service({ language }) {
       {/* <BackgroundSection /> */}
       <Background text={data.service.name} />
       <div className="mx-4 md:mx-20 px-4">
-        <h1
-          className="text-[#023F88] text-[25px] md:text-2xl font-bold border-b-2 border-orange-500 inline-block mx-auto mt-16 lg:mx-[35%] lg:mt-24 "
-          data-aos="fade-up"
-        >
-          {/* We treat diseases such as... */}
-          {data.service.h1}
-        </h1>
+        <div className="text-center">
+          <h1
+            className="text-[#023F88] text-[25px] md:text-2xl font-bold border-b-2 border-orange-500 inline-block mx-auto mt-16 lg:mx-[35%] lg:mt-24 "
+            data-aos="fade-up"
+          >
+            {/* We treat diseases such as... */}
+            {data.service.h1}
+          </h1>
+        </div>
         {cardData.map((card, index) => (
           <Card
             key={index}

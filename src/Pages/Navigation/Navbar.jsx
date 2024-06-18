@@ -160,42 +160,78 @@ function Navbar({ handleChangeLanguage, language }) {
             <ul className="space-y-6 flex flex-col">
               <li>
                 <Link to="" onClick={toggleSidebar}>
-                  <span className="text-orange-500 border-b-2 pb-4 px-3 border-orange-500 textFont hover:text-orange-600">
+                  <span
+                    className={`${
+                      location.pathname === "/"
+                        ? "text-orange-500 border-orange-500 border-b-2 pb-2"
+                        : "text-[#023f88] font-semibold"
+                    }   px-3  textFont hover:text-orange-600`}
+                  >
                     {data.navItem.home}
                   </span>
                 </Link>
               </li>
               <li>
                 <Link to="about" onClick={toggleSidebar}>
-                  <span className="text-[#023f88] font-semibold textFont hover:text-[#0250a8]">
+                  <span
+                    className={`${
+                      location.pathname === "/about"
+                        ? "text-orange-500 border-orange-500 border-b-2 pb-2"
+                        : "text-[#023f88] font-semibold"
+                    }   px-3  textFont hover:text-orange-600`}
+                  >
                     {data.navItem.about}
                   </span>
                 </Link>
               </li>
               <li>
                 <Link to="service" onClick={toggleSidebar}>
-                  <span className="text-[#023f88] font-semibold textFont hover:text-[#0250a8]">
+                  <span
+                    className={`${
+                      location.pathname === "/service"
+                        ? "text-orange-500 border-orange-500 border-b-2 pb-2"
+                        : "text-[#023f88] font-semibold"
+                    }   px-3  textFont hover:text-orange-600`}
+                  >
                     {data.navItem.service}
                   </span>
                 </Link>
               </li>
               <li>
                 <Link to="facility" onClick={toggleSidebar}>
-                  <span className="text-[#023f88] font-semibold textFont hover:text-[#0250a8]">
+                  <span
+                    className={`${
+                      location.pathname === "/facility"
+                        ? "text-orange-500 border-orange-500 border-b-2 pb-2"
+                        : "text-[#023f88] font-semibold"
+                    }   px-3  textFont hover:text-orange-600`}
+                  >
                     {data.navItem.facility}
                   </span>
                 </Link>
               </li>
               <li>
                 <Link to="gallery" onClick={toggleSidebar}>
-                  <span className="text-[#023f88] font-semibold textFont hover:text-[#0250a8]">
+                  <span
+                    className={`${
+                      location.pathname === "/gallery"
+                        ? "text-orange-500 border-orange-500 border-b-2 pb-2"
+                        : "text-[#023f88] font-semibold"
+                    }   px-3  textFont hover:text-orange-600`}
+                  >
                     {data.navItem.gallery}
                   </span>
                 </Link>
               </li>
               <li>
                 <Link to="contact" onClick={toggleSidebar}>
-                  <span className="text-[#023f88] font-semibold textFont hover:text-[#0250a8]">
+                  <span
+                    className={`${
+                      location.pathname === "/contact"
+                        ? "text-orange-500 border-orange-500 border-b-2 pb-2"
+                        : "text-[#023f88] font-semibold"
+                    }   px-3  textFont hover:text-orange-600`}
+                  >
                     {data.navItem.contact}
                   </span>
                 </Link>
