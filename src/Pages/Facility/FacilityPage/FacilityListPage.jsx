@@ -16,6 +16,11 @@ import Oxygen from "./images/oxygen.png";
 import Injection from "./images/injection.png";
 import Prayogshala from "./images/IMG_4962.jpg";
 import BimaImage from "./images/health-Insurance.png";
+import imgimg2 from "./images/image5.jpeg";
+import imgimg3 from "./images/image6.jpeg";
+import imgimg4 from "./images/imgimg10.jpeg";
+import imgimg5 from "./images/imgimg11.jpeg";
+import imgimg6 from "./images/imgimg12.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -28,20 +33,20 @@ const FacilityListPage = ({ text }) => {
     { imageUrl: Bed, text: text.image2.name },
     { imageUrl: Acroom, text: text.image3.name },
     { imageUrl: Oxygen, text: text.image4.name },
-    { imageUrl: Neautalmachine, text: text.image5.name },
+    { imageUrl: imgimg3, text: text.image5.name },
     {
-      imageUrl: Blood,
+      imageUrl: Sugar,
       text: text.image6.name,
     },
-    { imageUrl: Sugar, text: text.image7.name },
+    { imageUrl: imgimg4, text: text.image7.name },
     { imageUrl: Tikakaran, text: text.image8.name },
-    { imageUrl: Injection, text: text.image9.name },
+    { imageUrl: Neautalmachine, text: text.image9.name },
     { imageUrl: Prayogshala, text: text.image10.name },
     { imageUrl: BimaImage, text: text.image11.name },
-    { imageUrl: Centraloxygen, text: text.image12.name },
-    { imageUrl: Injection, text: text.image13.name },
+    { imageUrl: imgimg5, text: text.image12.name },
+    { imageUrl: imgimg6, text: text.image13.name },
     {
-      imageUrl: Lab,
+      imageUrl: imgimg2,
       text: text.image14.name,
     },
   ];

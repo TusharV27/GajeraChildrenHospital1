@@ -2,7 +2,7 @@
   "navItem": {
     "home": "HOUSE",
     "about": "ABOUT",
-    "service": "SERVICE",
+    "service": "INFORMATION",
     "facility": "FACILITY",
     "gallery": "GALLERY",
     "contact": "CONTACT US"
@@ -327,7 +327,7 @@
       },
       "image10": {
         "url": "/images/1.jpg",
-        "name": "Laboratory Facility"
+        "name": "Facilities of Rahat Dar's medical store."
       },
       "image11": {
         "url": "/images/1.jpg",
@@ -343,7 +343,7 @@
       },
       "image14": {
         "url": "/images/1.jpg",
-        "name": "Steaming Machine For Baby"
+        "name": "Steaming Machine"
       }
     },
     "poster": "Providing modern facilities with child-friendly care.",
@@ -419,7 +419,7 @@
       },
       "card2": {
         "name": "Visit Our Hospital",
-        "address": "14, Ishwar Palace, Varachha Main Road, Near Soham Nagar, Opposite Sargam Doctor House, Hira Bag, Surat, Gujarat 395006"
+        "address": "1st Floor, Ishwar Palace, Above Vatan Parcel, Varachha Main Road, Near Soham Nagar, Opposite Sargam Doctor House, Hira Bag, Surat, Gujarat 395006"
       },
       "card3": {
         "name": "Email for Queries",
@@ -431,7 +431,7 @@
         "name": "Quick Contact",
         "home": "Home",
         "about": "About",
-        "service": "Service",
+        "service": "Information",
         "facility": "Facility",
         "gallery": "Gallery",
         "contact": "Contact Us"
@@ -461,7 +461,7 @@
     },
     "getInTouch": {
       "name": "Get in Touch",
-      "address": "Ishwar Palace, Varachha Main Road, near Soham Nagar, opposite Sargam Doctor House, Hirabag, Surat, Gujarat 395006",
+      "address": "1st Floor, Ishwar Palace, Above Vatan Parcel, Varachha Main Road, near Soham Nagar, opposite Sargam Doctor House, Hirabag, Surat, Gujarat 395006",
       "phone": {
         "phone1": "(0261) 2540423",
         "phone2": "(0261) 2550251"
