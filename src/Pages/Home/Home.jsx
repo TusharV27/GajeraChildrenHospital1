@@ -13,6 +13,7 @@ import image2 from "./Image2.jpg";
 import image3 from "./Image3.jpg";
 import image4 from "./Image4.jpg";
 import image5 from "./Image5.jpg";
+import image6 from "./blog.jpg";
 import { getTranslations } from "../../translations/data";
 let cards = [];
 let mainText = "";
@@ -124,7 +125,7 @@ const Blog = ({ text }) => {
   AOS.init({
     duration: 2000,
   });
-  const images = [image1, image2, image3, image4, image5];
+  const images = [image1, image2, image3, image4, image5, image6];
   return (
     <div className="max-w-screen-lg mx-auto mt-8">
       <h1
