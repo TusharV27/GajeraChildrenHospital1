@@ -34,6 +34,7 @@ import IMG_4962 from "./Images/IMG_4962.jpg";
 import IMG_4965 from "./Images/img20.jpeg";
 import IMG_4967 from "./Images/img21.jpeg";
 import IMG_4973 from "./Images/img22.jpeg";
+import IMG_4974 from "./Images/img24.jpeg";
 
 const Background = ({ text }) => {
   return (
@@ -77,6 +78,7 @@ const Gallery = ({ language }) => {
     IMG_4965,
     IMG_4967,
     IMG_4973,
+    IMG_4974,
   ];
 
   const [data, setData] = useState(null);
