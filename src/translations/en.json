@@ -156,7 +156,7 @@
     }
   },
   "service": {
-    "name": "Service",
+    "name": "INFORMATION",
     "h1": "We treat diseases like...",
     "cards": {
       "card1": {
@@ -469,6 +469,6 @@
       "email": "vasant_gajera@yahoo.com",
       "mobile": "9824310103"
     },
-    "pera": "Gajera Children Hospital started in 1993. We are committed to compassionate care and innovation. Serving the community with excellence, we prioritize your well-being and recovery."
+    "pera": "Gajera Children Hospital started in 1990. We are committed to compassionate care and innovation. Serving the community with excellence, we prioritize your well-being and recovery."
   }
 }
