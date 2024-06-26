@@ -96,7 +96,7 @@ function Service({ language }) {
       isLeft: false,
     },
     {
-      imageUrl: img2,
+      imageUrl: img6,
       description: [
         data.service.cards.card3.p1,
         data.service.cards.card3.p2,
@@ -140,7 +140,7 @@ function Service({ language }) {
       isLeft: false,
     },
     {
-      imageUrl: img6,
+      imageUrl: img2,
       description: [
         data.service.cards.card7.p1,
         data.service.cards.card7.p2,
