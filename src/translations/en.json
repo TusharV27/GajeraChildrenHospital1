@@ -15,7 +15,7 @@
         "p2": "This hospital has a total of 22 beds, including AC special rooms and two general wards with modern facilities.",
         "p3": "It also has incubator facilities for newborns. Many insurance companies offer cashless facilities.",
         "p4": "All kinds of vaccines are also provided at this hospital.",
-        "p5": "Our Gajera Children Hospital guarantees the best care in a child-friendly environment. We strive to provide quality care and a conducive environment. Your child's health is our priority."
+        "p5": "Our Gajera Children Hospital guarantees the best care in a child-friendly environment. We try to provide quality care and a conducive environment. Your child's health is our priority."
       }
     },
     "blog": "Blogs",
@@ -303,11 +303,11 @@
       },
       "image4": {
         "url": "/images/1.jpg",
-        "name": "Glass Box for Children"
+        "name": "Phototherapy Machine for new Borns"
       },
       "image5": {
         "url": "/images/1.jpg",
-        "name": "Neonatal Care Machine"
+        "name": "Warmer Machine for new Borns"
       },
       "image6": {
         "url": "/images/1.jpg",
@@ -343,7 +343,7 @@
       },
       "image14": {
         "url": "/images/1.jpg",
-        "name": "Steaming Machine"
+        "name": "Nebulizer Machine"
       }
     },
     "poster": "Providing modern facilities with child-friendly care.",
